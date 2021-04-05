@@ -1,0 +1,79 @@
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: centuryGothic;
+}
+ header{
+     background-image:linear-gradient(rgb(250, 249, 249),rgba(251, 250, 250, 0.972)),url(ha.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ Header{
+    margin:10px;
+    background-color:  rgb(116, 185, 202); Padding: 0.1px;
+    Text-Align:Center;
+    border-radius: 12px;
+    border-color:rgb(228, 25, 25);
+    border-Style:dotted;
+    Color:rgb(255, 255, 255) ;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none; 
+    color : #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: rgb(255, 255, 255);
+}
+ul li.active a{
+    background-color: #fff;
+    color: rgb(255, 253, 253);
+}
+ 
+.log img{
+     float: left;
+     width: 150px;
+     height: auto;
+ }
+ .main{
+     max-width: 1200px;
+     margin: auto;
+ }
+ .title{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+.title h1{
+     color: #fff;
+     font-size: 70px;
+}
+
+.button{
+    position: absolute;
+     top: 60%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
