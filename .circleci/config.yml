@@ -1,13 +1,9 @@
 version: 2.1
-
 orbs:
-  android: circleci/android@0.2.1
-
-jobs:
-  build:
-    executor: android/android
-
-    steps:
-      - checkout
-      - run:
-          command: ./gradlew build
+    hello: circleci/hello-build@0.0.5
+workflows:
+    "Hello Workflow":
+        jobs:
+          - hello/hello-build
+        steps:
+          - run: echo "Hello World"
